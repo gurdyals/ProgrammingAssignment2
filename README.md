@@ -36,7 +36,7 @@ really a list containing a function to
                     m <<- NULL
             }
             get <- function() x
-            setmean <- function(mean) m <<- mean
+            setmean <- function(mean) m <<- mean (mean)
             getmean <- function() m
             list(set = set, get = get,
                  setmean = setmean,
